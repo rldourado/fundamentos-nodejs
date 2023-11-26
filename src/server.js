@@ -13,7 +13,6 @@ import { extractQueryParams } from './utils/extract-query-params.js'
 
 // Body Parameters: Envio de informações de formulário e/ou sensíveis (HTTPS)
 
-
 const server = http.createServer(async(req, res) => {
   
   const { method, url, headers } = req
